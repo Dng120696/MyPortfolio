@@ -4,16 +4,16 @@ function About() {
   return (
     <section
       id="about"
-      className="w-[clamp(30rem,90%,120rem)]  m-auto pt-52  h-screen grid grid-cols-2 gap-32 border-b-[1px] dark:border-gray-600 border-gray-300"
+      className="w-[clamp(30rem,90%,120rem)]  m-auto  h-screen grid grid-cols-2 gap-32 border-b-[1px] dark:border-gray-600 border-gray-300"
     >
-      <div className="h-screen">
+      <div className="flex items-center justify-center">
         <img
           src={profile2}
           alt=""
-          className="h-[65vh] w-[35rem] m-auto rounded-xl"
+          className="about_img h-[55rem] w-[38rem] m-auto"
         />
       </div>
-      <div className="pt-10">
+      <div className=" flex items-center justify-center flex-col">
         <article>
           <div className="about_me">
             <p className="dark:text-gray-400 text-gray-400 font-bold text-2xl mb-4">
@@ -33,7 +33,7 @@ function About() {
             and help me grow.&quot;
           </p>
         </article>
-        <article className="pt-[3.5rem]">
+        <article className="pt-[3.5rem] self-start">
           <h1 className="text-[2rem] font-bold text-gray-800 dark:text-gray-200 mb-8 uppercase">
             Skills
           </h1>

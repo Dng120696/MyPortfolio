@@ -5,7 +5,7 @@ function Project() {
   return (
     <section
       id="project"
-      className=" h-screen w-[clamp(30rem,90%,120rem)]  m-auto py-40 border-b-[1px] dark:border-gray-600 border-gray-300 flex flex-col gap-10 "
+      className="h-min w-[clamp(30rem,90%,120rem)]  m-auto py-40 border-b-[1px] dark:border-gray-600 border-gray-300 flex flex-col gap-10 "
     >
       <div>
         <h1 className="mb-6 text-5xl font-medium">1. Slack App Clone</h1>
@@ -16,7 +16,7 @@ function Project() {
         </p>
         <div className="relative w-[45rem] h-[24.2rem] slack_img overflow-hidden">
           {" "}
-          <img src={slackApp} alt="" className=" w-[inherit]  " />
+          <img src={slackApp} alt="" className=" w-[inherit] rounded-md  " />
           <p className="link_slack_app  flex items-center gap-6 absolute top-[-50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-50 w-[45rem] h-[24.2rem] justify-center">
             <a
               href="https://github.com/Dng120696/Slack-App-Avion-Version-Batch-31-v2"
@@ -52,7 +52,7 @@ function Project() {
         </p>
         <div className="relative w-[45rem] h-[24.2rem] bank_img overflow-hidden">
           {" "}
-          <img src={BankApp} alt="" className=" w-[inherit]  " />
+          <img src={BankApp} alt="" className=" w-[inherit]  rounded-md " />
           <p className="link_bank_app  flex items-center gap-6 absolute top-[-50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-100 w-[45rem] h-[24.2rem] justify-center">
             <a
               href="https://github.com/Dng120696/Bank-and-Budget-Tracker-App-Batch-31"

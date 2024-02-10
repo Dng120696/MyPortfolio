@@ -49,7 +49,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className=" py-80 h-screen w-[clamp(30rem,90%,120rem)]  m-auto border-b-[1px] dark:border-gray-600 border-gray-300 "
+      className=" py-60 h-screen w-[clamp(30rem,90%,120rem)]  m-auto border-b-[1px] dark:border-gray-600 border-gray-300 "
     >
       <h1 className="text-center text-5xl font-bold mb-10">Contact Me</h1>
       <form
