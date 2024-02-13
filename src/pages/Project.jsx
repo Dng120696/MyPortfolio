@@ -14,10 +14,10 @@ function Project() {
           using the Avion School API. It allows users to handle account tasks,
           create channels, send messages, and access extra features.
         </p>
-        <div className="relative w-[45rem] h-[24.2rem] slack_img overflow-hidden">
+        <div className="relative w-[30rem] sm:w[35rem] md:w-[40rem] lg:w-[45rem] h-[15rem] sm:h-[20rem] md:h[22rem] lg:h-[24.2rem] slack_img overflow-hidden">
           {" "}
           <img src={slackApp} alt="" className=" w-[inherit] rounded-md  " />
-          <p className="link_slack_app  flex items-center gap-6 absolute top-[-50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-50 w-[45rem] h-[24.2rem] justify-center">
+          <p className="link_slack_app  flex items-center gap-6 absolute top-[-50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-50 w-[30rem] sm:w[35rem] md:w-[40rem] lg:w-[45rem] h-[15rem] sm:h-[20rem] md:h[22rem] lg:h-[24.2rem] justify-center">
             <a
               href="https://github.com/Dng120696/Slack-App-Avion-Version-Batch-31-v2"
               className="text-4xl"
@@ -50,10 +50,10 @@ function Project() {
           transaction history, including loan transactions, and displays the
           account creation date for reference.
         </p>
-        <div className="relative w-[45rem] h-[24.2rem] bank_img overflow-hidden">
+        <div className="relative w-[30rem] sm:w[35rem] md:w-[40rem] lg:w-[45rem] h-[15rem] sm:h-[20rem] md:h[22rem] lg:h-[24.2rem] bank_img overflow-hidden">
           {" "}
           <img src={BankApp} alt="" className=" w-[inherit]  rounded-md " />
-          <p className="link_bank_app  flex items-center gap-6 absolute top-[-50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-100 w-[45rem] h-[24.2rem] justify-center">
+          <p className="link_bank_app  flex items-center gap-6 absolute top-[-50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-100 w-[30rem] sm:w[35rem] md:w-[40rem] lg:w-[45rem] h-[15rem] sm:h-[20rem] md:h[22rem] lg:h-[24.2rem] justify-center">
             <a
               href="https://github.com/Dng120696/Bank-and-Budget-Tracker-App-Batch-31"
               className="text-4xl"
