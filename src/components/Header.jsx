@@ -15,7 +15,7 @@ export function Header({ onSetDark, isDark }) {
           My Portfolio
         </h1>
         <ul
-          className={`flex gap-6 md:gap-10 lg:gap-14 items-center flex-col md:flex-row absolute top-[900%] md:top-[-0.8rem] left-[50%] md:right-0 ${
+          className={`flex gap-6 md:gap-10 lg:gap-14 items-center flex-col md:flex-row absolute md:relative top-[900%]  left-[50%] md:left-[8rem] lg:left-[16rem] xl:left-[30rem] ${
             isOpen ? "flex" : "hidden"
           } md:flex translate-x-[-50%] translate-y-[-50%] md:translate-x-0 md:translate-y-0 w-[clamp(30rem,90%,120rem)] z-[-1] md:w-max  py-16 md:py-0 rounded-xl md:rounded-none bg-gray-300 dark:bg-gray-700 md:dark:bg-transparent md:bg-transparent`}
         >
