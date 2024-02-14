@@ -5,12 +5,12 @@ function Home({ children }) {
   return (
     <div className="  text-2xl flex items-center justify-center " id="home">
       {children}
-      <section className="w-[clamp(30rem,90%,120rem)]  m-auto flex items-center justify-between flex-col-reverse md:flex-row h-screen  border-b-[1px] py-60 md:py-0  gap-20 md:gap-0 dark:border-gray-600 border-gray-300">
+      <section className="w-[clamp(30rem,90%,120rem)]  m-auto flex items-center justify-center md:justify-between flex-col-reverse md:flex-row h-screen  border-b-[1px]  md:py-0  gap-10  d pt-12 dark:border-gray-600 border-gray-300">
         <article>
           <p className="text-gray-400 dark:text-gray-400 font-medium mb-2 sm:mb-4">
             Hi <strong className="text-3xl">👋</strong>, my name is
           </p>
-          <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl text-gray-900 dark:text-gray-100 mb-4 md:mb-6">
+          <h1 className="font-bold text-5xl md:text-6xl xl:text-7xl text-gray-900 dark:text-gray-100 mb-4 md:mb-6">
             Christian Patrick Nebab
           </h1>
           <p className="text-[1.4rem] text-gray-400 dark:text-gray-400   mb-6 md:mb- font-medium">
@@ -51,7 +51,7 @@ function Home({ children }) {
         <img
           src={profile}
           alt=""
-          className="w-[30rem] h-[30rem] md:w-[35rem] md:h-[35rem] lg:w-[40rem] lg:h-[40rem] profile_img"
+          className="w-[25rem] h-[25rem] md:w-[32rem] md:h-[32rem] lg:w-[35rem] lg:h-[35rem] xl:w-[40rem] xl:h-[40rem] profile_img"
         />
       </section>
     </div>

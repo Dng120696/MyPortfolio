@@ -4,7 +4,7 @@ function About() {
   return (
     <section
       id="about"
-      className="w-[clamp(30rem,90%,120rem)]  m-auto h-screen py-32 lg:py-0 grid lg:grid-cols-2 gap-32 border-b-[1px] dark:border-gray-600 border-gray-300"
+      className="w-[clamp(30rem,90%,120rem)]  m-auto h-min md:h-screen py-32 lg:py-0 grid lg:grid-cols-2 gap-32 border-b-[1px] dark:border-gray-600 border-gray-300"
     >
       <div className="hidden lg:flex items-center justify-center">
         <img

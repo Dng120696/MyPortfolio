@@ -83,7 +83,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="py-60 h-screen w-[clamp(30rem,90%,120rem)]  m-auto border-b-[1px] dark:border-gray-600 border-gray-300"
+      className="py-60 h-min md:h-screen w-[clamp(30rem,90%,120rem)]  m-auto border-b-[1px] dark:border-gray-600 border-gray-300"
     >
       <h1 className="text-center text-5xl font-bold mb-10">Contact Me</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 bg-white py-10 rounded-xl shadow-[0_0_1.5rem_1rem_rgba(0,0,0,0.1)] w-[clamp(30rem,90%,100rem)] m-auto">
