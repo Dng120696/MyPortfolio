@@ -51,7 +51,7 @@ function Home({ children }) {
         <img
           src={profile}
           alt=""
-          className="w-[25rem] h-[25rem] md:w-[32rem] md:h-[32rem] lg:w-[35rem] lg:h-[35rem] xl:w-[40rem] xl:h-[40rem] profile_img"
+          className="w-[25rem] h-[25rem] md:w-[32rem] md:h-[32rem] lg:w-[35rem] lg:h-[35rem] xl:w-[40rem] xl:h-[40rem] profile_img object-fit"
         />
       </section>
     </div>

@@ -10,7 +10,7 @@ function About() {
         <img
           src={profile2}
           alt=""
-          className="about_img h-[53rem] w-[38rem] m-auto"
+          className="about_img h-[53rem] w-[38rem] m-auto object-cover"
         />
       </div>
       <div className=" flex items-center justify-center flex-col">
