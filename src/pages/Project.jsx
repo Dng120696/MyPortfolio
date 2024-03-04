@@ -11,13 +11,13 @@ function Project() {
         <p className="dark:text-gray-400 text-gray-400 font-bold text-2xl mb-4">
           Discover
         </p>
-        <h1 className="uppercase text-5xl font-bold tracking-[2px] dark:text-gray-200 text-gray-800">
-          My Projects
+        <h1 className=" text-5xl font-bold tracking-[2px] dark:text-gray-200 text-gray-800">
+          My Project
         </h1>
       </div>
 
       <div>
-        <h1 className="mb-6 text-5xl font-medium">1. Slack App Clone</h1>
+        <h1 className="mb-6 text-4xl font-medium">1. Slack App Clone</h1>
         <p className="text-2xl tracking-[1px] leading-[1.6] dark:text-gray-300 text-gray-600  mb-6">
           We built a version of the Slack app in our Avion School bootcamp,
           using the Avion School API. It allows users to handle account tasks,
@@ -77,7 +77,7 @@ function Project() {
         </div>
       </div>
       <div>
-        <h1 className="mb-6 text-5xl font-medium">
+        <h1 className="mb-6 text-4xl font-medium">
           2. Banking and Budget Tracker App
         </h1>
         <p className="text-2xl tracking-[1px] leading-[1.6] dark:text-gray-300 text-gray-600  mb-6">
