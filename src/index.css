@@ -28,10 +28,12 @@ html {
   transition: 600ms;
   cursor: pointer;
 }
-.about_me {
+.about_me,
+.projects {
   @apply relative;
 }
-.about_me::after {
+.about_me::after,
+.projects::after {
   content: "";
   @apply absolute bottom-[-1.25rem] left-0 w-[6rem] h-[3px] bg-[#A0AAC2];
 }

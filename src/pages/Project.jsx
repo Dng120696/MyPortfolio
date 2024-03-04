@@ -7,6 +7,15 @@ function Project() {
       id="project"
       className="h-min w-[clamp(30rem,90%,120rem)]  m-auto py-40 border-b-[1px] dark:border-gray-600 border-gray-300 flex flex-col gap-10 "
     >
+      <div className="projects mb-12">
+        <p className="dark:text-gray-400 text-gray-400 font-bold text-2xl mb-4">
+          Discover
+        </p>
+        <h1 className="uppercase text-5xl font-bold tracking-[2px] dark:text-gray-200 text-gray-800">
+          My Projects
+        </h1>
+      </div>
+
       <div>
         <h1 className="mb-6 text-5xl font-medium">1. Slack App Clone</h1>
         <p className="text-2xl tracking-[1px] leading-[1.6] dark:text-gray-300 text-gray-600  mb-6">
@@ -62,6 +71,8 @@ function Project() {
             />
 
             <i className="devicon-postman-plain colored"></i>
+
+            <i className="devicon-jest-plain colored"></i>
           </p>
         </div>
       </div>
@@ -115,7 +126,6 @@ function Project() {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
               className="w-8 md:w-9"
             />
-            <i className="devicon-vitejs-plain colored"></i>
           </p>
         </div>
       </div>
