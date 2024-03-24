@@ -4,16 +4,9 @@ function About() {
   return (
     <section
       id="about"
-      className="w-[clamp(30rem,90%,120rem)]  m-auto h-min md:h-screen py-32 lg:py-0 grid lg:grid-cols-2 gap-32 border-b-[1px] dark:border-gray-600 border-gray-300"
+      className="w-[clamp(30rem,90%,120rem)]  m-auto py-32 lg:py-0 border-b-[1px] h-min md:h-screen flex items-center dark:border-gray-600 border-gray-300"
     >
-      <div className="hidden lg:flex items-center justify-center">
-        <img
-          src={profile2}
-          alt=""
-          className="about_img h-[53rem] w-[38rem] m-auto object-cover"
-        />
-      </div>
-      <div className=" flex items-center justify-center flex-col">
+      <div className=" grid lg:grid-cols-2  md:gap-20 lg:gap-32  ">
         <article>
           <div className="about_me">
             <p className="dark:text-gray-400 text-gray-400 font-bold text-2xl mb-4">
