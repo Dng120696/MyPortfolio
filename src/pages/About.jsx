@@ -1,5 +1,3 @@
-import profile2 from "../assets/profile_2.jpg";
-
 function About() {
   return (
     <section
