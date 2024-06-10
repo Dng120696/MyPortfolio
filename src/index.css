@@ -43,3 +43,13 @@ html {
 .about_img {
   border-radius: 50% 0% 50% 10% / 50% 10% 50% 0%;
 }
+section {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 1s;
+}
+.section--hidden {
+  transform: translateY(12rem);
+  opacity: 0;
+  transition: all 1s;
+}

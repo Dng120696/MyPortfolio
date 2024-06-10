@@ -81,7 +81,7 @@ function Contact() {
   };
 
   return (
-    <div
+    <section
       id="contact"
       className="py-60 h-min md:h-screen w-[clamp(30rem,90%,120rem)]  m-auto border-b-[1px] dark:border-gray-600 border-gray-300"
     >
@@ -167,7 +167,7 @@ function Contact() {
           </button>
         </form>
       </div>
-    </div>
+    </section>
   );
 }
 

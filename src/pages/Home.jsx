@@ -1,5 +1,5 @@
 import profile from "../assets/profile.jpg";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/Christian Patrick_Nebab_Resume.pdf";
 
 function Home({ children }) {
   return (
@@ -43,7 +43,7 @@ function Home({ children }) {
             </p>
           </div>
           <button className="text-gray-200 text-xl font-semibold  py-3 px-6 rounded-lg tracking-[2px] bg-gray-800 hover:bg-gray-900">
-            <a href={resume} download="resume.pdf">
+            <a href={resume} download="Christian Patrick_Nebab_Resume.pdf">
               Download CV
             </a>
           </button>
