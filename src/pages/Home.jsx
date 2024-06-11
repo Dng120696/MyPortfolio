@@ -24,19 +24,19 @@ function Home({ children }) {
             <p className="flex gap-6 dark:text-gray-300 text-gray-600">
               <a
                 href="https://www.facebook.com/christianpatrick.nebab/"
-                className="hover:text-gray-900"
+                className="hover:text-gray-900 dark:hover:text-gray-500"
               >
                 <i className="fa-brands fa-square-facebook"></i>
               </a>
               <a
                 href="https://github.com/Dng120696"
-                className="hover:text-gray-900"
+                className="hover:text-gray-900 dark:hover:text-gray-500"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/christian-patrick-nebab-85901a213/"
-                className="hover:text-gray-900"
+                className="hover:text-gray-900 dark:hover:text-gray-500"
               >
                 <i className="fa-brands fa-linkedin"></i>
               </a>
