@@ -2,7 +2,7 @@ function About() {
   return (
     <section
       id="about"
-      className="w-[clamp(30rem,90%,120rem)]  m-auto py-32 lg:py-0 border-b-[1px] h-min md:h-screen flex items-center dark:border-gray-600 border-gray-300"
+      className="w-[clamp(30rem,90%,120rem)]  m-auto py-32 lg:py-0 border-b-[1px] h-screen flex items-center dark:border-gray-600 border-gray-300"
     >
       <div className=" grid lg:grid-cols-2  md:gap-20 lg:gap-32  ">
         <article>

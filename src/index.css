@@ -49,7 +49,7 @@ section {
   transition: all 1s;
 }
 .section--hidden {
-  transform: translateY(12rem);
+  transform: translateY(10rem);
   opacity: 0;
   transition: all 1s;
 }

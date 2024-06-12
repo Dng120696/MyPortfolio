@@ -19,25 +19,35 @@ export function Header({ onSetDark, isDark }) {
             isOpen ? "flex" : "hidden"
           } md:flex translate-x-[-50%] translate-y-[-50%] md:translate-x-0 md:translate-y-0 w-[clamp(30rem,90%,120rem)] z-[-1] md:w-max  py-16 md:py-0 rounded-xl md:rounded-none bg-gray-300 dark:bg-gray-700 md:dark:bg-transparent md:bg-transparent`}
         >
+          <i
+            className="fa-solid fa-xmark absolute top-6 right-8 text-2xl cursor-pointer md:hidden hover:text-gray-300 "
+            onClick={() => setIsOpen(false)}
+          ></i>
           <a
             href="#home"
             className="hover:bg-gray-800 hover:text-white dark:hover:bg-gray-900 md:dark:hover:bg-gray-800  w-full text-center py-4 md:px-4 md:rounded-md"
+            onClick={() => setIsOpen(false)}
           >
             Home
           </a>
           <a
             href="#about"
             className="hover:bg-gray-800 hover:text-white dark:hover:bg-gray-900 md:dark:hover:bg-gray-800 w-full text-center py-3  md:px-4 md:rounded-md"
+            onClick={() => setIsOpen(false)}
           >
             About
           </a>
           <a
             href="#project"
             className="hover:bg-gray-800 hover:text-white dark:hover:bg-gray-900 md:dark:hover:bg-gray-800  w-full text-center py-3 md:px-4 md:rounded-md"
+            onClick={() => setIsOpen(false)}
           >
             Project
           </a>
-          <button className=" py-3 px-6 bg-gray-800 hover:bg-gray-900  text-white rounded-lg">
+          <button
+            className=" py-3 px-6 bg-gray-800 hover:bg-gray-900  text-white rounded-lg"
+            onClick={() => setIsOpen(false)}
+          >
             <a href="#contact">Contact</a>
           </button>
         </ul>
