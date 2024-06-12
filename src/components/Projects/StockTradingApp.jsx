@@ -4,13 +4,15 @@ import stockTrading from "../../assets/stock_trading_app.png";
 function StockTradingApp() {
   return (
     <div>
-      <h1 className="mb-6 text-4xl font-medium">Stock Trading App</h1>
-      <div className="relative w-[30rem] sm:w[35rem] md:w-[40rem] lg:w-[45rem] h-[15rem] sm:h-[20rem] md:h[22rem] lg:h-[24.2rem] bank_img overflow-hidden">
+      <h1 className="mb-6 text-3xl lg:text-4xl font-medium">
+        Stock Trading App
+      </h1>
+      <div className="relative w-[30rem] sm:w[35rem] mobile-lg:w-[37.6rem] mobile-lg:h-[19.5rem] md:w-[32.5rem] lg:w-[44rem] xl:w-[58rem] xl:h-[30rem]  h-[15rem] sm:h-[20rem] md:h[22rem] lg:h-[24.2rem] bank_img overflow-hidden">
         {" "}
         <img
           src={stockTrading}
           alt=""
-          className=" w-[inherit] h-full  rounded-md "
+          className=" w-[inherit] h-full  rounded-md  object-cover "
         />
         <p className="link_bank_app  flex items-center gap-6 absolute top-[-50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-100 w-[inherit]  h-[inherit]  justify-center">
           <a

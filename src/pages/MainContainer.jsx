@@ -22,7 +22,7 @@ export function MainContainer({ onSetDark, isDark }) {
 
     const sectionObserver = new IntersectionObserver(secEntry, {
       root: null,
-      threshold: 0.5,
+      threshold: 0.3,
     });
 
     section.forEach((sec) => sectionObserver.observe(sec));
