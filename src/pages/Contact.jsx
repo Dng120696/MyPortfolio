@@ -73,7 +73,7 @@ function Contact() {
                   noreferrer"
                   className=" text-[1.6rem] md:text-2xl lg:text-3xl font-bold text-light-texto-primary dark:text-dark-texto-primary  hover:cursor-pointer hover:underline"
                 >
-                  /Dng120696
+                  /github/Dng120696
                 </a>
               </p>
             </li>

@@ -13,7 +13,7 @@ function Home({ children }) {
           <h1 className="font-bold text-5xl md:text-6xl xl:text-7xl text-gray-900 dark:text-gray-100 mb-4 md:mb-6">
             Christian Patrick Nebab
           </h1>
-          <p className=" text-gray-400 text-2xl lg:text-3xl dark:text-gray-400 leading-[1.7] md:leading-[1.5]   mb-6 md:mb- font-medium">
+          <p className=" text-gray-400 text-2xl lg:text-[1.8rem] lg:pr-96 dark:text-gray-400 leading-[1.7] md:leading-[1.5]   mb-6 md:mb- font-medium">
             A Front-End Developer and Ruby on Rails Developer based in Cagayan,
             Philippines.
           </p>
