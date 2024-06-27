@@ -1,7 +1,6 @@
 import Home from "./Home";
 import About from "./About";
 import Project from "./Project";
-import Contact from "./Contact";
 import Footer from "./Footer";
 import { Header } from "../components/Header";
 import { useEffect } from "react";
@@ -35,7 +34,7 @@ export function MainContainer({ onSetDark, isDark }) {
       </Home>
       <About />
       <Project />
-      <Contact />
+
       <Footer />
     </main>
   );

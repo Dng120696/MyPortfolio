@@ -9,7 +9,7 @@ function SlackClone() {
           {" "}
           Slack App Clone
         </h1>
-        <div className="relative  w-[30rem] sm:w[35rem] mobile-lg:w-[37.6rem] mobile-lg:h-[19.5rem] md:w-[32.5rem]  lg:w-[44rem] xl:w-[58rem] xl:h-[30rem] h-[15rem] sm:h-[20rem]  lg:h-[24.2rem]  slack_img overflow-hidden">
+        <div className="relative  w-[30rem] sm:w[35rem] mobile-lg:w-[37.6rem] mobile-lg:h-[19.5rem] md:w-[32.5rem]  lg:w-[44rem] xl:w-[58rem] xl:h-[30rem] h-[15rem] sm:h-[20rem]  lg:h-[24.2rem]  slack_img overflow-hidden shadow-md ">
           {" "}
           <img
             src={slackApp}

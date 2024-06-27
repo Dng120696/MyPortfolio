@@ -8,7 +8,7 @@ function BankingApp() {
         Banking and Budget Tracker App
       </h1>
 
-      <div className="relative w-[30rem] sm:w[35rem]  mobile-lg:w-[37.6rem] mobile-lg:h-[19.5rem] md:w-[32.5rem] lg:w-[44rem] xl:w-[58rem] xl:h-[30rem] h-[15rem] sm:h-[20rem] md:h[22rem] lg:h-[24.2rem] bank_img overflow-hidden">
+      <div className="relative w-[30rem] sm:w[35rem]  mobile-lg:w-[37.6rem] mobile-lg:h-[19.5rem] md:w-[32.5rem] lg:w-[44rem] xl:w-[58rem] xl:h-[30rem] h-[15rem] sm:h-[20rem] md:h[22rem] lg:h-[24.2rem] bank_img overflow-hidden  shadow-md">
         {" "}
         <img
           src={BankApp}
@@ -24,11 +24,12 @@ function BankingApp() {
           >
             <i className="fa-brands fa-github dark:text-black "></i>
           </a>
-          <button className="text-3xl border-gray-700  py-1 px-4 dark:bg-white dark:text-gray-900 rounded-md font-bold hover:dark:bg-gray-900 hover:dark:text-white hover:dark:border-white hover:bg-gray-900 hover:text-white hover:border-white">
+          <button className="text-3xl border-gray-700  py-1 px-4  dark:bg-white dark:text-gray-900 rounded-md font-bold hover:dark:bg-gray-900 hover:dark:text-white hover:dark:border-white hover:bg-gray-900 hover:text-white hover:border-white">
             <a
               href="https://banking-and-budget-app.vercel.app"
               target="_blank"
               rel="noreferrer"
+              className=""
             >
               Live
             </a>
