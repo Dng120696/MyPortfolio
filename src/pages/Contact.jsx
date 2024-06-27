@@ -28,6 +28,9 @@ function Contact() {
 
                 <a
                   href="mailto:christianpatrickcnebab@gmail.com"
+                  target="_blank"
+                  rel="
+                  noreferrer"
                   className=" text-[1.6rem] md:text-2xl lg:text-3xl font-bold text-light-texto-primary dark:text-dark-texto-primary  hover:cursor-pointer hover:underline"
                 >
                   christianpatrickcnebab@gmail.com
@@ -45,6 +48,9 @@ function Contact() {
 
                 <a
                   href="https://www.linkedin.com/in/christian-patrick-nebab-85901a213/"
+                  target="_blank"
+                  rel="
+                  noreferrer"
                   className=" text-[1.6rem] md:text-2xl lg:text-3xl font-bold text-light-texto-primary dark:text-dark-texto-primary  hover:cursor-pointer hover:underline"
                 >
                   /in/christian-patrick-nebab
@@ -62,6 +68,9 @@ function Contact() {
 
                 <a
                   href="https://github.com/Dng120696"
+                  target="_blank"
+                  rel="
+                  noreferrer"
                   className=" text-[1.6rem] md:text-2xl lg:text-3xl font-bold text-light-texto-primary dark:text-dark-texto-primary  hover:cursor-pointer hover:underline"
                 >
                   /Dng120696
@@ -79,6 +88,9 @@ function Contact() {
 
                 <a
                   href="https://www.facebook.com/christianpatrick.nebab"
+                  target="_blank"
+                  rel="
+                  noreferrer"
                   className=" text-[1.6rem] md:text-2xl lg:text-3xl  font-bold text-light-texto-primary dark:text-dark-texto-primary  hover:cursor-pointer hover:underline"
                 >
                   /fb/christianpatrick.nebab
@@ -100,6 +112,9 @@ function Contact() {
 
                 <a
                   href="https://www.leetcode.com/dng120696"
+                  target="_blank"
+                  rel="
+                  noreferrer"
                   className="text-[1.6rem] md:text-2xl lg:text-3xl font-bold text-light-texto-primary dark:text-dark-texto-primary  hover:cursor-pointer hover:underline"
                 >
                   /leetcode.com/dng120696
@@ -117,6 +132,9 @@ function Contact() {
 
                 <a
                   href="https://twitter.com/dng0216"
+                  target="_blank"
+                  rel="
+                  noreferrer"
                   className=" text-[1.6rem] md:text-2xl lg:text-3xl font-bold text-light-texto-primary dark:text-dark-texto-primary  hover:cursor-pointer hover:underline"
                 >
                   /twitter.com/christianpatrick.nebab
