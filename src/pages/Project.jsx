@@ -3,12 +3,17 @@ import JournalApp from "../components/Projects/JournalApp";
 import OnlineStoreApp from "../components/Projects/OnlineStoreApp";
 import SlackClone from "../components/Projects/SlackClone";
 import StockTradingApp from "../components/Projects/StockTradingApp";
+import ProjectModal from "../components/ProjectModal";
 
 import Loading from "../components/Loading";
 import { useState, useEffect } from "react";
 import Contact from "./Contact";
+import useStore from "../store/store";
 
 function Project() {
+  const state = useStore();
+  const { isOpenProjectModal } = state;
+
   const [isSeeMore, setSeeMore] = useState(false);
   const [isLoading, setLoading] = useState(false);
   const [showOther, setShowOther] = useState(false);
@@ -16,15 +21,15 @@ function Project() {
   useEffect(() => {
     if (isSeeMore) {
       setLoading(true);
-      setTimeout(() => {
+      const timer = setTimeout(() => {
         setLoading(false);
         setShowOther(true);
-      }, 2000);
+      }, 1000);
+      return () => clearTimeout(timer);
     } else {
       setShowOther(false);
     }
   }, [isSeeMore]);
-
   return (
     <>
       <section
@@ -40,16 +45,12 @@ function Project() {
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-16 sm:gap-20 md:gap-24 lg:gap-32">
           <OnlineStoreApp />
           <StockTradingApp />
           <SlackClone />
           <BankingApp />
-          {showOther && !isLoading && (
-            <>
-              <JournalApp />
-            </>
-          )}
+          {showOther && !isLoading && <JournalApp />}
         </div>
         {isLoading && <Loading />}
 
@@ -57,24 +58,18 @@ function Project() {
           className="text-2xl font-bold absolute bottom-6 left-1/2 translate-x-[-50%] translate-y-[-50%] z-[50] bg-gray-200  text-gray-700 dark:bg-gray-800 dark:text-gray-200  rounded-full py-3 px-8 flex gap-4 items-center "
           onClick={() => setSeeMore((seeMore) => !seeMore)}
         >
-          {isSeeMore ? (
-            <>
-              <span className="">
-                <i className="fa-solid fa-chevron-down "></i>
-              </span>
-              <span>View Less </span>
-            </>
-          ) : (
-            <>
-              <span>
-                <i className="fa-solid fa-chevron-up"></i>
-              </span>
-              <span>View More </span>
-            </>
-          )}
+          <span className="">
+            <i
+              className={`fa-solid ${
+                isSeeMore ? "fa-chevron-down" : "fa-chevron-up"
+              } `}
+            ></i>
+          </span>
+          <span>View {isSeeMore ? "Less" : "More"}</span>
         </button>
       </section>
       <Contact />
+      {isOpenProjectModal && <ProjectModal />}
     </>
   );
 }

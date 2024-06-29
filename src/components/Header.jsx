@@ -12,7 +12,7 @@ export function Header({ onSetDark, isDark }) {
 
   return (
     <header className=" font-semibold">
-      <nav className="w-[clamp(30rem,90%,120rem)]  m-auto  flex items-center justify-between fixed top-16  md:top-20 left-[50%] translate-x-[-50%] translate-y-[-50%] z-[100]">
+      <nav className="w-[clamp(30rem,90%,120rem)]  m-auto  flex items-center justify-between fixed top-16  md:top-20 left-[50%] translate-x-[-50%] translate-y-[-50%] z-[20]">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold ">
           My Portfolio
         </h1>

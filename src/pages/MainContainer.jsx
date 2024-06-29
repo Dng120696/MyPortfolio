@@ -28,13 +28,12 @@ export function MainContainer({ onSetDark, isDark }) {
   }, []);
 
   return (
-    <main className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+    <main className={`bg-white dark:bg-gray-900 text-gray-900 dark:text-white`}>
       <Home>
         <Header onSetDark={onSetDark} isDark={isDark} />
       </Home>
       <About />
       <Project />
-
       <Footer />
     </main>
   );

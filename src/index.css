@@ -60,3 +60,30 @@ section {
 .spinner img {
   animation: 2s linear infinite rotate;
 }
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.overlay::before {
+  content: "";
+  @apply fixed top-0 left-0 w-full h-full z-[50];
+  background: rgba(0, 0, 0, 0.15);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+.proj_modal::-webkit-scrollbar {
+  width: 1rem;
+  padding-left: 1rem;
+}
+.proj_modal::-webkit-scrollbar-track {
+  background: transparent;
+}
+.proj_modal::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
