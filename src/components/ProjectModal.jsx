@@ -94,7 +94,7 @@ function ProjectModal() {
               </a>
             </span>
           </div>
-          <p className="mb-6 text-xl  lg:text-2xl leading-[1.6] md:leading-[1.8]  text-gray-600 dark:text-gray-300 text-justify  indent-[3rem]">
+          <p className="mb-6 text-xl  lg:text-2xl leading-[1.6] md:leading-[1.8] lg:leading-[1.8] text-gray-600 dark:text-gray-300 text-justify  indent-[3rem]">
             {findProject.description}
           </p>
           <p className="text-xl md:text-2xl  font-bold  text-gray-700 dark:text-gray-50 mb-4">
