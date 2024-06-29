@@ -54,7 +54,7 @@ function ReactTech() {
       >
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
-          className="w-8 md:w-9 mr-1"
+          className="w-6   mr-1"
           alt="Vite"
         />
         Vite
@@ -67,7 +67,7 @@ function ReactTech() {
       >
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitest/vitest-original.svg"
-          className="w-8 md:w-9 mr-1"
+          className="w-6  mr-1"
           alt="Vitest"
         />
         Vitest

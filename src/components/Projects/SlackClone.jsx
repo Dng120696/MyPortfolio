@@ -23,15 +23,15 @@ function SlackClone() {
           </div>
         </div>
         <div
-          className=" flex lg:items-center  flex-col-reverse  gap-4 lg:flex-row
+          className=" flex lg:items-center   gap-4 lg:flex-row
        justify-between mt-6"
         >
-          <div className="text-xl md:text-2xl flex flex-col">
-            <h1 className="text-3xl lg:text-4xl  font-medium">
+          <div className="text-3xl lg:text-4xl flex flex-col">
+            <h1 className="text-2xl lg:text-3xl  font-bold">
               {" "}
               Slack App Clone
             </h1>
-            <p className="text-2xl mt-2 text-gray-400  ">
+            <p className="text-xl lg:text-2xl mt-2 text-gray-400  ">
               Modern Slack clone with AVION API.
             </p>
           </div>
@@ -42,7 +42,7 @@ function SlackClone() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-github "></i>
+              <i className="fa-brands fa-github  text-3xl lg:text-4xl"></i>
             </a>
             <button className="  py-2 px-4 bg-gray-200 dark:bg-gray-700 rounded-xl h-14">
               <a
@@ -51,7 +51,7 @@ function SlackClone() {
                 className=" lg:text-4xl  flex items-center"
                 rel="noreferrer"
               >
-                <i className="fa-solid fa-arrow-up-right-from-square text-2xl "></i>
+                <i className="fa-solid fa-arrow-up-right-from-square text-xl lg:text-2xl"></i>
               </a>
             </button>
           </p>

@@ -10,7 +10,7 @@ function About() {
             <p className="dark:text-gray-400 text-gray-400 font-bold text-2xl mb-4">
               Discover
             </p>
-            <h1 className="uppercase text-5xl font-bold tracking-[2px] mb-12 dark:text-gray-200 text-gray-800">
+            <h1 className="uppercase text-5xl font-bold tracking-[2px] mb-20 dark:text-gray-200 text-gray-800">
               About Me
             </h1>
           </div>

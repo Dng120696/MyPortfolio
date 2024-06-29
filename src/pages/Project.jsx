@@ -4,16 +4,11 @@ import OnlineStoreApp from "../components/Projects/OnlineStoreApp";
 import SlackClone from "../components/Projects/SlackClone";
 import StockTradingApp from "../components/Projects/StockTradingApp";
 import ProjectModal from "../components/ProjectModal";
-
 import Loading from "../components/Loading";
 import { useState, useEffect } from "react";
 import Contact from "./Contact";
-import useStore from "../store/store";
 
 function Project() {
-  const state = useStore();
-  const { isOpenProjectModal } = state;
-
   const [isSeeMore, setSeeMore] = useState(false);
   const [isLoading, setLoading] = useState(false);
   const [showOther, setShowOther] = useState(false);
@@ -40,7 +35,7 @@ function Project() {
           <p className="dark:text-gray-400 text-gray-400 font-bold text-2xl mb-4">
             Discover
           </p>
-          <h1 className="text-5xl font-bold tracking-[2px] dark:text-gray-200 text-gray-800">
+          <h1 className="text-5xl font-bold tracking-[2px] dark:text-gray-200 text-gray-800 mb-20">
             My Project
           </h1>
         </div>
@@ -55,7 +50,7 @@ function Project() {
         {isLoading && <Loading />}
 
         <button
-          className="text-2xl font-bold absolute bottom-6 left-1/2 translate-x-[-50%] translate-y-[-50%] z-[50] bg-gray-200  text-gray-700 dark:bg-gray-800 dark:text-gray-200  rounded-full py-3 px-8 flex gap-4 items-center "
+          className="text-xl lg:text-2xl font-bold absolute bottom-6 left-1/2 translate-x-[-50%] translate-y-[-50%] z-[50] bg-gray-200  text-gray-700 dark:bg-gray-800 dark:text-gray-200  rounded-full py-3 px-8 flex gap-4 items-center "
           onClick={() => setSeeMore((seeMore) => !seeMore)}
         >
           <span className="">
@@ -69,7 +64,7 @@ function Project() {
         </button>
       </section>
       <Contact />
-      {isOpenProjectModal && <ProjectModal />}
+      <ProjectModal />
     </>
   );
 }
