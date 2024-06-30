@@ -27,7 +27,7 @@ function Home({ children }) {
         <img
           src={profile}
           alt=""
-          className="w-[25rem] h-[25rem] md:w-[32rem] md:h-[32rem] lg:w-[35rem] lg:h-[35rem] xl:w-[40rem] xl:h-[40rem] profile_img object-fit"
+          className="w-[25rem] h-[25rem] md:w-[32rem] md:h-[32rem] lg:w-[35rem] lg:h-[35rem] xl:w-[40rem] xl:h-[40rem] profile_img object-fit shadow-[0_0_8px_rgba(0,0,0,0.25)] dark:shadow-[0_0_8px_#A9A9A9A9]"
         />
       </section>
     </div>
