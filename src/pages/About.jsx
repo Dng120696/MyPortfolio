@@ -2,7 +2,7 @@ function About() {
   return (
     <section
       id="about"
-      className="h-min lg:h-screen w-[clamp(30rem,90%,120rem)] py-32  m-auto  border-b-[1px]  flex items-center border-gray-400 "
+      className="h-min  w-[clamp(30rem,90%,120rem)] py-36  m-auto  border-b-[1px]  flex items-center border-gray-400 "
     >
       <div className=" md:gap-20 lg:gap-32 ">
         <article>
@@ -15,7 +15,7 @@ function About() {
             </h1>
           </div>
 
-          <div className="text-2xl lg:text-3xl tracking-[1px] leading-[2] lg:leading-[2] xl:leading-[2.2] dark:text-gray-300 text-gray-600 font-semibold text-justify">
+          <div className="text-2xl lg:text-3xl tracking-[1px] leading-[2] lg:leading-[2]  dark:text-gray-300 text-gray-600 font-semibold text-justify">
             <p className="indent-12">
               &quot; As a Front-End Developer and Ruby on Rails Developer, I
               have a deep interest in leveraging technology to simplify and
