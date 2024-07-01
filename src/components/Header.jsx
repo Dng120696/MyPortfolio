@@ -19,7 +19,7 @@ export function Header({ onSetDark, isDark }) {
         <ul
           className={` font-bold
              flex gap-6 md:gap-10 lg:gap-14 items-center flex-col md:flex-row absolute md:relative top-[900%]  left-[50%] md:left-[8rem] lg:left-[16rem] xl:left-[30rem] ${
-               isOpen ? "scale-100 " : "scale-0"
+               isOpen ? "scale-100 opacity-100 " : "scale-0 opacity-0"
              } transition-transform md:scale-100 md:flex translate-x-[-50%] translate-y-[-50%] md:translate-x-0 md:translate-y-0 w-[clamp(30rem,90%,120rem)] z-[-1] md:w-max  py-16 md:py-0 rounded-xl md:rounded-none bg-gray-700 text-white md:text-gray-900 md:dark:text-white md:dark:bg-transparent md:bg-transparent`}
         >
           <i

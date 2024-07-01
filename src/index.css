@@ -49,12 +49,12 @@ html {
 section {
   transform: translateY(0);
   opacity: 1;
-  transition: all 800ms;
+  transition: all 600ms;
 }
 .section--hidden {
   transform: translateY(10rem);
   opacity: 0;
-  transition: all 800ms;
+  transition: all 600ms;
 }
 
 .spinner img {

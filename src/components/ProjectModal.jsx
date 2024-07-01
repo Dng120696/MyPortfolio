@@ -31,7 +31,7 @@ function ProjectModal() {
   return (
     <section
       className={`proj_modal ${
-        isOpenProjectModal ? "scale-100" : "scale-0"
+        isOpenProjectModal ? "opacity-100 scale-100" : "scale-0 opacity-0"
       } fixed w-[90%] lg:w-[95%] h-[95vh] top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] z-[100] 
      rounded-xl bg-gray-50 dark:bg-gray-700 dark:text-gray-50  text-5xl overflow-auto `}
     >
