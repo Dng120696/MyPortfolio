@@ -1,6 +1,6 @@
 import useStore from "../store/store";
 import { projData } from "../store/projData";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import RailsTech from "./Technologies/RailsTech";
 import ReactTech from "./Technologies/ReactTech";
 
@@ -11,7 +11,7 @@ function ProjectModal() {
 
   const [currentSlide, setCurrentSlide] = useState(0);
   const maxSlide = findProject.images.length - 1;
-
+  console.log(currentSlide);
   function handlePreviousSlide() {
     setCurrentSlide((prevSlide) => (prevSlide === 0 ? 0 : prevSlide - 1));
   }
@@ -21,6 +21,12 @@ function ProjectModal() {
       prevSlide === maxSlide ? maxSlide : prevSlide + 1
     );
   }
+
+  useEffect(() => {
+    if (!isOpenProjectModal) {
+      setCurrentSlide(0);
+    }
+  }, [isOpenProjectModal]);
 
   return (
     <section
