@@ -3,9 +3,12 @@ import resume from "../assets/Christian Patrick_Nebab_Resume.pdf";
 
 function Home({ children }) {
   return (
-    <div className="  text-2xl flex items-center justify-center " id="home">
+    <div
+      className="  text-2xl flex items-center justify-center flex-col "
+      id="home"
+    >
       {children}
-      <section className="w-[clamp(30rem,90%,120rem)]  m-auto flex items-center justify-center md:justify-between flex-col-reverse md:flex-row h-screen  border-b-[1px]  md:py-0  gap-10  d pt-12  border-gray-400">
+      <section className="w-[clamp(30rem,90%,120rem)] h-[90vh]  m-auto flex items-center justify-center md:justify-between flex-col-reverse md:flex-row  border-b-[1px]  md:py-0  gap-10  d pt-12  border-gray-400">
         <article>
           <p className=" text-gray-400 text-2xl lg:text-3xl dark:text-gray-400 font-medium mb-2 sm:mb-4">
             Hi <strong className="text-3xl">👋</strong>, My name is

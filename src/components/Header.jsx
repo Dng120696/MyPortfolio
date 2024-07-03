@@ -4,6 +4,10 @@ import darkMode from "../assets/icon-moon.svg";
 
 export function Header({ onSetDark, isDark }) {
   const [isOpen, setIsOpen] = useState(false);
+
+  function handleToggleMenu() {
+    setIsOpen(!isOpen);
+  }
   function handleSetDark() {
     const newIsDark = !isDark;
     onSetDark(newIsDark);
@@ -11,8 +15,8 @@ export function Header({ onSetDark, isDark }) {
   }
 
   return (
-    <header className=" font-semibold">
-      <nav className="w-[clamp(30rem,90%,120rem)]  m-auto  flex items-center justify-between fixed top-16  md:top-20 left-[50%] translate-x-[-50%] translate-y-[-50%] z-[20]">
+    <header className=" font-semibold w-full h-[10vh] flex items-center">
+      <nav className="w-[clamp(30rem,90%,120rem)]  m-auto  flex items-center justify-between relative z-[100]">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold ">
           My Portfolio
         </h1>
@@ -24,32 +28,32 @@ export function Header({ onSetDark, isDark }) {
         >
           <i
             className="fa-solid fa-xmark absolute top-6 right-8 text-2xl cursor-pointer md:hidden hover:text-gray-300 "
-            onClick={() => setIsOpen(false)}
+            onClick={handleToggleMenu}
           ></i>
           <a
             href="#home"
-            className="hover:bg-gray-800 hover:text-white dark:hover:bg-gray-900 md:dark:hover:bg-gray-800  w-full text-center py-4 md:px-4 md:rounded-md"
-            onClick={() => setIsOpen(false)}
+            className="hover:bg-gray-700 hover:text-white dark:hover:bg-gray-900 md:dark:hover:bg-gray-700  w-full text-center py-4 md:px-4 md:rounded-md"
+            onClick={handleToggleMenu}
           >
             Home
           </a>
           <a
             href="#about"
-            className="hover:bg-gray-800 hover:text-white dark:hover:bg-gray-900 md:dark:hover:bg-gray-800 w-full text-center py-3  md:px-4 md:rounded-md"
-            onClick={() => setIsOpen(false)}
+            className="hover:bg-gray-700 hover:text-white dark:hover:bg-gray-900 md:dark:hover:bg-gray-700 w-full text-center py-3  md:px-4 md:rounded-md"
+            onClick={handleToggleMenu}
           >
             About
           </a>
           <a
             href="#project"
-            className="hover:bg-gray-800 hover:text-white dark:hover:bg-gray-900 md:dark:hover:bg-gray-800  w-full text-center py-3 md:px-4 md:rounded-md"
-            onClick={() => setIsOpen(false)}
+            className="hover:bg-gray-700 hover:text-white dark:hover:bg-gray-900 md:dark:hover:bg-gray-700  w-full text-center py-3 md:px-4 md:rounded-md"
+            onClick={handleToggleMenu}
           >
             Project
           </a>
           <button
-            className=" py-3 px-6 bg-gray-800 hover:bg-gray-900  text-white rounded-lg"
-            onClick={() => setIsOpen(false)}
+            className=" hover:bg-gray-700 hover:text-white dark:hover:bg-gray-900 md:dark:hover:bg-gray-700  w-full text-center py-4 md:px-4 md:rounded-md"
+            onClick={handleToggleMenu}
           >
             <a href="#contact">Contact</a>
           </button>

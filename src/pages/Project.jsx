@@ -56,7 +56,7 @@ function Project() {
           <span className="">
             <i
               className={`fa-solid ${
-                isSeeMore ? "fa-chevron-down" : "fa-chevron-up"
+                !isSeeMore ? "fa-chevron-down" : "fa-chevron-up"
               } `}
             ></i>
           </span>

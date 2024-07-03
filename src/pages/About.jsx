@@ -117,6 +117,12 @@ function About() {
               </span>
               <span className="font-semibold">PostgreSQL</span>
             </p>
+            <p className="flex items-center gap-2">
+              <span>
+                <i className="devicon-postman-plain colored mr-1"></i>
+              </span>
+              <span className="font-semibold">Postman</span>
+            </p>
           </div>
         </article>
       </div>
