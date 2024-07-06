@@ -31,7 +31,7 @@ function Contact() {
                   target="_blank"
                   rel="
                   noreferrer"
-                  className=" text-[1.6rem] md:text-2xl lg:text-3xl font-bold text-light-texto-primary dark:text-dark-texto-primary  hover:cursor-pointer hover:underline"
+                  className=" text-[1.4rem] md:text-2xl lg:text-3xl font-bold text-light-texto-primary dark:text-dark-texto-primary  hover:cursor-pointer hover:underline"
                 >
                   christianpatrickcnebab@gmail.com
                 </a>
@@ -135,9 +135,9 @@ function Contact() {
                   target="_blank"
                   rel="
                   noreferrer"
-                  className=" text-[1.6rem] md:text-2xl lg:text-3xl font-bold text-light-texto-primary dark:text-dark-texto-primary  hover:cursor-pointer hover:underline"
+                  className=" text-[1.4rem] md:text-2xl lg:text-3xl font-bold text-light-texto-primary dark:text-dark-texto-primary  hover:cursor-pointer hover:underline"
                 >
-                  /twitter.com/christianpatrick.nebab
+                  /twitter/christianpatrick.nebab
                 </a>
               </p>
             </li>
