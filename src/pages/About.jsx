@@ -82,7 +82,12 @@ function About() {
               </span>
               <span className="font-semibold">React</span>
             </p>
-
+            <p className="flex items-center gap-2">
+              <span>
+                <i className="devicon-typescript-plain colored"></i>
+              </span>
+              <span className="font-semibold">TypeScript</span>
+            </p>
             <p className="flex items-center gap-2">
               <span>
                 <i className="devicon-git-plain colored"></i>
@@ -102,13 +107,6 @@ function About() {
                 <i className="devicon-rails-plain colored"></i>
               </span>
               <span className="font-semibold">Ruby on Rails</span>
-            </p>
-
-            <p className="flex items-center gap-2">
-              <span>
-                <i className="devicon-azuresqldatabase-plain colored"></i>
-              </span>
-              <span className="font-semibold">SQL</span>
             </p>
 
             <p className="flex items-center gap-2">
