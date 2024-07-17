@@ -14,6 +14,12 @@ const bankAppImages = import.meta.glob("../assets/bankAppImg/*.png", {
 const journalAppImages = import.meta.glob("../assets/journalAppImg/*.png", {
   eager: true,
 });
+const restCountriesImages = import.meta.glob(
+  "../assets/restCountriesImg/*.png",
+  {
+    eager: true,
+  }
+);
 
 // Convert the imported images into an array
 const convertGlobToArray = (glob) => {
@@ -33,3 +39,4 @@ export const stockAppImagesArray = convertGlobToArray(stockAppImages);
 export const slackCloneImagesArray = convertGlobToArray(slackCloneImages);
 export const bankAppImagesArray = convertGlobToArray(bankAppImages);
 export const journalAppImagesArray = convertGlobToArray(journalAppImages);
+export const restCountriesImagesArray = convertGlobToArray(restCountriesImages);

@@ -2,7 +2,7 @@ function About() {
   return (
     <section
       id="about"
-      className="h-min  w-[clamp(30rem,90%,120rem)] py-36  m-auto  border-b-[1px]  flex items-center border-gray-400 "
+      className="h-min  w-[clamp(30rem,90%,120rem)] py-32  m-auto  border-b-[1px]  flex items-center border-gray-400 "
     >
       <div className=" md:gap-20 lg:gap-32 ">
         <article>
@@ -17,22 +17,19 @@ function About() {
 
           <div className="text-2xl lg:text-3xl tracking-[1px] leading-[2] lg:leading-[2]  dark:text-gray-300 text-gray-600 font-semibold text-justify">
             <p className="indent-12">
-              &quot; As a Front-End Developer and Ruby on Rails Developer, I
-              have a deep interest in leveraging technology to simplify and
-              enhance everyday tasks. I am passionate about creating web
-              applications that are both user-friendly and highly functional.
+              &quot;As a Front-End Developer and Ruby on Rails Developer, I am
+              dedicated to leveraging technology to streamline and elevate
+              everyday tasks. My passion lies in crafting intuitive web
+              applications that prioritize user experience and
+              functionality.&quot;
             </p>
 
             <p className="indent-12">
-              In addition to my technical skills, I am highly organized and
-              efficient in managing my tasks. For instance, in our Online Store
-              project, we had a tight deadline of four weeks to complete the
-              work. I devised a structured plan to ensure timely delivery: in
-              the first week, we established the database schema and defined the
-              key features; in the second week, we focused on implementing core
-              functionalities; the third week was dedicated to UI design; and in
-              the final week, we concentrated on refining and adding additional
-              features to the project. &quot;
+              &quot;I excel in organizational efficiency, crucial for managing
+              tasks effectively. Beyond my technical roles, I actively engage in
+              personal projects, including the development of mini applications
+              to explore emerging technologies and continually hone my
+              skills.&quot;
             </p>
           </div>
         </article>

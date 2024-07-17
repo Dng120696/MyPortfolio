@@ -7,6 +7,7 @@ import ProjectModal from "../components/ProjectModal";
 import Loading from "../components/Loading";
 import { useState, useEffect } from "react";
 import Contact from "./Contact";
+import RestCountriesAPI from "../components/Projects/RestCountriesAPI";
 
 function Project() {
   const [isSeeMore, setSeeMore] = useState(false);
@@ -29,7 +30,7 @@ function Project() {
     <>
       <section
         id="project"
-        className="h-min w-[clamp(30rem,90%,120rem)] m-auto py-44 border-b-[1px] border-gray-400 gap-10 relative  "
+        className="h-min w-[clamp(30rem,90%,120rem)] m-auto pt-32 pb-40 border-b-[1px] border-gray-400 gap-10 relative  "
       >
         <div className="projects mb-12">
           <p className="dark:text-gray-400 text-gray-400 font-bold text-2xl mb-4">
@@ -45,7 +46,13 @@ function Project() {
           <StockTradingApp />
           <SlackClone />
           <BankingApp />
-          {showOther && !isLoading && <JournalApp />}
+          {showOther && !isLoading && (
+            <>
+              {" "}
+              <JournalApp />
+              <RestCountriesAPI />
+            </>
+          )}
         </div>
         {isLoading && <Loading />}
 

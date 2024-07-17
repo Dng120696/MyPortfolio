@@ -143,7 +143,9 @@ function ProjectModal() {
                 )}
               </>
             )}
-            {(projName === "slackCloneApp" || projName === "bankingApp") && (
+            {(projName === "slackCloneApp" ||
+              projName === "bankingApp" ||
+              projName === "restCountries") && (
               <>
                 <ReactTech />
                 {projName === "slackCloneApp" && (

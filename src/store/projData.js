@@ -4,6 +4,7 @@ import {
   slackCloneImagesArray,
   bankAppImagesArray,
   journalAppImagesArray,
+  restCountriesImagesArray,
 } from "./images";
 
 export const projData = {
@@ -53,5 +54,14 @@ export const projData = {
       "Capture your thoughts and experiences with our Journal App. Write, organize, and reflect on your daily moments. With a clean interface and easy-to-use features, prioritize self-reflection and mindfulness in your daily routine.",
     githubLinks: "https://github.com/Dng120696/Journal-App-Batch-32",
     liveLinks: "https://mysite-pldf.onrender.com",
+  },
+  restCountries: {
+    images: restCountriesImagesArray,
+    title: "Rest Countries API App",
+    bgColor: "bg-gray-700",
+    description:
+      "The REST Countries API provides a comprehensive and easy-to-use interface for accessing detailed information about countries around the world. It offers endpoints to retrieve data on various attributes such as country names, population, area, capital cities, languages, currencies, and regional affiliations. The API is designed for simplicity and flexibility, making it an ideal tool for developers who need up-to-date and accurate country data for their applications, educational projects, or research purposes. With robust documentation and reliable performance, the REST Countries API is a valuable resource for integrating geographical data into any project.",
+    githubLinks: "https://github.com/Dng120696/Rest-Countries-API-Typescript",
+    liveLinks: "https://rest-countries-api-typescript.vercel.app",
   },
 };
