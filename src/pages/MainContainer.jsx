@@ -4,6 +4,9 @@ import Project from "./Project";
 import Footer from "./Footer";
 import { Header } from "../components/Header";
 import { useEffect } from "react";
+import Education from "./Education";
+import Contact from "./Contact";
+import ProjectModal from "../components/ProjectModal";
 
 export function MainContainer({ onSetDark, isDark }) {
   useEffect(() => {
@@ -34,7 +37,10 @@ export function MainContainer({ onSetDark, isDark }) {
       </Home>
       <About />
       <Project />
+      <Education />
+      <Contact />
       <Footer />
+      <ProjectModal />
     </main>
   );
 }

@@ -3,10 +3,8 @@ import JournalApp from "../components/Projects/JournalApp";
 import OnlineStoreApp from "../components/Projects/OnlineStoreApp";
 import SlackClone from "../components/Projects/SlackClone";
 import StockTradingApp from "../components/Projects/StockTradingApp";
-import ProjectModal from "../components/ProjectModal";
 import Loading from "../components/Loading";
 import { useState, useEffect } from "react";
-import Contact from "./Contact";
 import RestCountriesAPI from "../components/Projects/RestCountriesAPI";
 
 function Project() {
@@ -70,8 +68,6 @@ function Project() {
           <span>View {isSeeMore ? "Less" : "More"}</span>
         </button>
       </section>
-      <Contact />
-      <ProjectModal />
     </>
   );
 }

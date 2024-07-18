@@ -30,11 +30,13 @@ html {
 }
 .about_me,
 .contact_me,
+.education,
 .projects {
   @apply relative;
 }
 .about_me::after,
 .projects::after,
+.education::after,
 .contact_me::after {
   content: "";
   @apply absolute bottom-[-1.25rem] left-0 w-[6rem] h-[3px] bg-[#A0AAC2];

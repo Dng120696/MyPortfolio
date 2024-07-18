@@ -83,6 +83,10 @@ function ProjectModal() {
               ))}
             </div>
           </div>
+
+          <small className="absolute bottom-10 right-10 bg-gray-100 rounded-md text-gray-600 text-xl px-4 py-2 font-bold">
+            {currentSlide + 1} / {maxSlide + 1}
+          </small>
         </div>
         <div className="py-10 lg:py-28 px-6 lg:px-10 self-stretch">
           <h1 className="text-2xl md:text-3xl lg:text-4xl  font-bold mb-10">
